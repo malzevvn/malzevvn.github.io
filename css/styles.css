@@ -58,7 +58,7 @@ article {
     clear: both;
     overflow: auto;
     width: 100%;}
-hgroup {
+article h2 {
     margin-top: 26px;
     font-family: Arial, Verdana, Sans-serif;
     color: #010088;}
