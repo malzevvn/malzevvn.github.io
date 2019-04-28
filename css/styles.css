@@ -1,9 +1,9 @@
 body {
     color: #000000;
     background-image: url("../images/fon.jpg");
-	background-repeat: repeat;
+    background-repeat: repeat;
     background-position: center;
-    font-family: Georgia, Times, serif;
+    font-family: Georgia, Times, Serif;
     line-height: 1.4em;
     margin: 0px;}
 .wrapper {
@@ -19,13 +19,23 @@ h1 {
     width: 940px;
     height: 130px;
     margin: 0px;}
+a {
+    color: #010088;
+    text-decoration: none;}
+h1, h2 {
+    font-weight: normal;}
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;}
+section.news {
+    float: left;
+    width: 647px;}
 section.table900 {
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Arial, Verdana, Sans-serif;
     margin: 20px 10px 20px 20px;}
 section.contacts {
-	font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana, Sans-serif;
     margin: 20px 20px 20px 330px;}
-
 nav, footer {
     clear: both;
     color: #ffffff;
@@ -34,7 +44,7 @@ nav, footer {
 nav ul {
     margin: 0px;
     padding: 5px 0px 5px 30px;
-	border-width: 1px;
+    border-width: 1px;
     border-top-style: solid;
     border-color: #000000;}
 nav li {
@@ -42,18 +52,15 @@ nav li {
     margin-left: 70px;}
 nav li a {
     color: #ffffff;}
-nav li a:hover, nav li a.current {
+nav li a.current {
     color: #000000;}
-section.news {
-    float: left;
-    width: 647px;}
 article {
     clear: both;
     overflow: auto;
     width: 100%;}
 hgroup {
     margin-top: 26px;
-	font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana, Sans-serif;
     color: #010088;}
 figure {
     float: left;
@@ -61,37 +68,17 @@ figure {
     height: 160px;
     padding: 5px;
     margin: 20px 20px 10px 20px;
-    border: 1px solid #ADADAD;}
-figcaption {
-    font-size: 90%;
-    text-align: left;}
+    border: 1px solid #adadad;}
 aside {
     width: 260px;
     float: left;
     padding: 0px 0px 0px 20px;    
-    border-left: 1px solid #ADADAD;}
-aside section a {
-    display: block;
-    padding: 10px;}
-aside section a:hover {
-    color: #985d6a;
-    background-color: #efefef;}
-a {
-    color: #010088;
-    text-decoration: none;}
-h1, h2, h3 {
-    font-weight: normal;}
-h2 {
-    margin: 10px 0px 5px 0px;
-    padding: 0px;}
-h3 {
-    margin: 0px 0px 10px 0px;
-    color: #de6581;}
+    border-left: 1px solid #adadad;}
 aside h2 {
     padding: 5px 0px 0px 0px;
     color: #010088;}
 footer {
-    font-family: Arial, Verdana, sans-serif;
-	font-size: 90%;
-	text-align: center;
+    font-family: Arial, Verdana, Sans-serif;
+    font-size: 90%;
+    text-align: center;
     padding: 7px 0px 0px 20px;}
